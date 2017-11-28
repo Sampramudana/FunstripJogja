@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB5FF23F692492EA3B0B66A9 /* Pods_FunstripJogja.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026FF72167D57758B7979A1A /* Pods_FunstripJogja.framework */; };
+		FAF4605B1FCD681A00143E94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4605A1FCD681A00143E94 /* AppDelegate.swift */; };
+		FAF460621FCD681B00143E94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF460601FCD681B00143E94 /* Main.storyboard */; };
+		FAF460641FCD681B00143E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF460631FCD681B00143E94 /* Assets.xcassets */; };
+		FAF460671FCD681B00143E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF460651FCD681B00143E94 /* LaunchScreen.storyboard */; };
+		FAF460721FCD681B00143E94 /* FunstripJogjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF460711FCD681B00143E94 /* FunstripJogjaTests.swift */; };
+		FAF4607D1FCD681B00143E94 /* FunstripJogjaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4607C1FCD681B00143E94 /* FunstripJogjaUITests.swift */; };
+		FAF460921FCD6DFD00143E94 /* IsiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4608A1FCD6DFC00143E94 /* IsiDetailViewController.swift */; };
+		FAF460931FCD6DFD00143E94 /* KategoriTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4608B1FCD6DFC00143E94 /* KategoriTableViewController.swift */; };
+		FAF460941FCD6DFD00143E94 /* BeritaKategoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4608C1FCD6DFC00143E94 /* BeritaKategoriTableViewCell.swift */; };
+		FAF460951FCD6DFD00143E94 /* HomeMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4608D1FCD6DFC00143E94 /* HomeMenuTableViewCell.swift */; };
+		FAF460961FCD6DFD00143E94 /* HomeMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4608E1FCD6DFC00143E94 /* HomeMenuTableViewController.swift */; };
+		FAF460971FCD6DFD00143E94 /* IsiBeritaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4608F1FCD6DFC00143E94 /* IsiBeritaViewController.swift */; };
+		FAF460981FCD6DFD00143E94 /* BeritaKategoriTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF460901FCD6DFC00143E94 /* BeritaKategoriTableViewController.swift */; };
+		FAF460991FCD6DFD00143E94 /* KategoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF460911FCD6DFC00143E94 /* KategoriTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF4606E1FCD681B00143E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF4604F1FCD681900143E94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF460561FCD681A00143E94;
+			remoteInfo = FunstripJogja;
+		};
+		FAF460791FCD681B00143E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF4604F1FCD681900143E94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF460561FCD681A00143E94;
+			remoteInfo = FunstripJogja;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026FF72167D57758B7979A1A /* Pods_FunstripJogja.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunstripJogja.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71816E5A931CCA9AE0FB9DA1 /* Pods-FunstripJogja.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunstripJogja.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunstripJogja/Pods-FunstripJogja.debug.xcconfig"; sourceTree = "<group>"; };
+		E7ACAF4722D4950FC85EEA9D /* Pods-FunstripJogja.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunstripJogja.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunstripJogja/Pods-FunstripJogja.release.xcconfig"; sourceTree = "<group>"; };
+		FAF460571FCD681A00143E94 /* FunstripJogja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunstripJogja.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF4605A1FCD681A00143E94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF460611FCD681B00143E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF460631FCD681B00143E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF460661FCD681B00143E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAF460681FCD681B00143E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF4606D1FCD681B00143E94 /* FunstripJogjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunstripJogjaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF460711FCD681B00143E94 /* FunstripJogjaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunstripJogjaTests.swift; sourceTree = "<group>"; };
+		FAF460731FCD681B00143E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF460781FCD681B00143E94 /* FunstripJogjaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunstripJogjaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF4607C1FCD681B00143E94 /* FunstripJogjaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunstripJogjaUITests.swift; sourceTree = "<group>"; };
+		FAF4607E1FCD681B00143E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF4608A1FCD6DFC00143E94 /* IsiDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsiDetailViewController.swift; sourceTree = "<group>"; };
+		FAF4608B1FCD6DFC00143E94 /* KategoriTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KategoriTableViewController.swift; sourceTree = "<group>"; };
+		FAF4608C1FCD6DFC00143E94 /* BeritaKategoriTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeritaKategoriTableViewCell.swift; sourceTree = "<group>"; };
+		FAF4608D1FCD6DFC00143E94 /* HomeMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeMenuTableViewCell.swift; sourceTree = "<group>"; };
+		FAF4608E1FCD6DFC00143E94 /* HomeMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeMenuTableViewController.swift; sourceTree = "<group>"; };
+		FAF4608F1FCD6DFC00143E94 /* IsiBeritaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsiBeritaViewController.swift; sourceTree = "<group>"; };
+		FAF460901FCD6DFC00143E94 /* BeritaKategoriTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeritaKategoriTableViewController.swift; sourceTree = "<group>"; };
+		FAF460911FCD6DFC00143E94 /* KategoriTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KategoriTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF460541FCD681A00143E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5FF23F692492EA3B0B66A9 /* Pods_FunstripJogja.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF4606A1FCD681B00143E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF460751FCD681B00143E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		748EA6E1C405488273165FE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71816E5A931CCA9AE0FB9DA1 /* Pods-FunstripJogja.debug.xcconfig */,
+				E7ACAF4722D4950FC85EEA9D /* Pods-FunstripJogja.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2B6BFD42FFE73514B52ABBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				026FF72167D57758B7979A1A /* Pods_FunstripJogja.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAF4604E1FCD681900143E94 = {
+			isa = PBXGroup;
+			children = (
+				FAF460591FCD681A00143E94 /* FunstripJogja */,
+				FAF460701FCD681B00143E94 /* FunstripJogjaTests */,
+				FAF4607B1FCD681B00143E94 /* FunstripJogjaUITests */,
+				FAF460581FCD681A00143E94 /* Products */,
+				748EA6E1C405488273165FE7 /* Pods */,
+				F2B6BFD42FFE73514B52ABBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF460581FCD681A00143E94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF460571FCD681A00143E94 /* FunstripJogja.app */,
+				FAF4606D1FCD681B00143E94 /* FunstripJogjaTests.xctest */,
+				FAF460781FCD681B00143E94 /* FunstripJogjaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF460591FCD681A00143E94 /* FunstripJogja */ = {
+			isa = PBXGroup;
+			children = (
+				FAF4605A1FCD681A00143E94 /* AppDelegate.swift */,
+				FAF4608C1FCD6DFC00143E94 /* BeritaKategoriTableViewCell.swift */,
+				FAF460901FCD6DFC00143E94 /* BeritaKategoriTableViewController.swift */,
+				FAF4608D1FCD6DFC00143E94 /* HomeMenuTableViewCell.swift */,
+				FAF4608E1FCD6DFC00143E94 /* HomeMenuTableViewController.swift */,
+				FAF4608F1FCD6DFC00143E94 /* IsiBeritaViewController.swift */,
+				FAF4608A1FCD6DFC00143E94 /* IsiDetailViewController.swift */,
+				FAF460911FCD6DFC00143E94 /* KategoriTableViewCell.swift */,
+				FAF4608B1FCD6DFC00143E94 /* KategoriTableViewController.swift */,
+				FAF460601FCD681B00143E94 /* Main.storyboard */,
+				FAF460631FCD681B00143E94 /* Assets.xcassets */,
+				FAF460651FCD681B00143E94 /* LaunchScreen.storyboard */,
+				FAF460681FCD681B00143E94 /* Info.plist */,
+			);
+			path = FunstripJogja;
+			sourceTree = "<group>";
+		};
+		FAF460701FCD681B00143E94 /* FunstripJogjaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF460711FCD681B00143E94 /* FunstripJogjaTests.swift */,
+				FAF460731FCD681B00143E94 /* Info.plist */,
+			);
+			path = FunstripJogjaTests;
+			sourceTree = "<group>";
+		};
+		FAF4607B1FCD681B00143E94 /* FunstripJogjaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF4607C1FCD681B00143E94 /* FunstripJogjaUITests.swift */,
+				FAF4607E1FCD681B00143E94 /* Info.plist */,
+			);
+			path = FunstripJogjaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF460561FCD681A00143E94 /* FunstripJogja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF460811FCD681B00143E94 /* Build configuration list for PBXNativeTarget "FunstripJogja" */;
+			buildPhases = (
+				06B3D4D37A9C58F98851478B /* [CP] Check Pods Manifest.lock */,
+				FAF460531FCD681A00143E94 /* Sources */,
+				FAF460541FCD681A00143E94 /* Frameworks */,
+				FAF460551FCD681A00143E94 /* Resources */,
+				97CC7169EF815E23B6A81945 /* [CP] Embed Pods Frameworks */,
+				289F05E5C2E9E57DEF7C9D14 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunstripJogja;
+			productName = FunstripJogja;
+			productReference = FAF460571FCD681A00143E94 /* FunstripJogja.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF4606C1FCD681B00143E94 /* FunstripJogjaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF460841FCD681B00143E94 /* Build configuration list for PBXNativeTarget "FunstripJogjaTests" */;
+			buildPhases = (
+				FAF460691FCD681B00143E94 /* Sources */,
+				FAF4606A1FCD681B00143E94 /* Frameworks */,
+				FAF4606B1FCD681B00143E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF4606F1FCD681B00143E94 /* PBXTargetDependency */,
+			);
+			name = FunstripJogjaTests;
+			productName = FunstripJogjaTests;
+			productReference = FAF4606D1FCD681B00143E94 /* FunstripJogjaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAF460771FCD681B00143E94 /* FunstripJogjaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF460871FCD681B00143E94 /* Build configuration list for PBXNativeTarget "FunstripJogjaUITests" */;
+			buildPhases = (
+				FAF460741FCD681B00143E94 /* Sources */,
+				FAF460751FCD681B00143E94 /* Frameworks */,
+				FAF460761FCD681B00143E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF4607A1FCD681B00143E94 /* PBXTargetDependency */,
+			);
+			name = FunstripJogjaUITests;
+			productName = FunstripJogjaUITests;
+			productReference = FAF460781FCD681B00143E94 /* FunstripJogjaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF4604F1FCD681900143E94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Sam Pramudana";
+				TargetAttributes = {
+					FAF460561FCD681A00143E94 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					FAF4606C1FCD681B00143E94 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAF460561FCD681A00143E94;
+					};
+					FAF460771FCD681B00143E94 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAF460561FCD681A00143E94;
+					};
+				};
+			};
+			buildConfigurationList = FAF460521FCD681900143E94 /* Build configuration list for PBXProject "FunstripJogja" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF4604E1FCD681900143E94;
+			productRefGroup = FAF460581FCD681A00143E94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF460561FCD681A00143E94 /* FunstripJogja */,
+				FAF4606C1FCD681B00143E94 /* FunstripJogjaTests */,
+				FAF460771FCD681B00143E94 /* FunstripJogjaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF460551FCD681A00143E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF460671FCD681B00143E94 /* LaunchScreen.storyboard in Resources */,
+				FAF460641FCD681B00143E94 /* Assets.xcassets in Resources */,
+				FAF460621FCD681B00143E94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF4606B1FCD681B00143E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF460761FCD681B00143E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06B3D4D37A9C58F98851478B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FunstripJogja-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		289F05E5C2E9E57DEF7C9D14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunstripJogja/Pods-FunstripJogja-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97CC7169EF815E23B6A81945 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FunstripJogja/Pods-FunstripJogja-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunstripJogja/Pods-FunstripJogja-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF460531FCD681A00143E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF460941FCD6DFD00143E94 /* BeritaKategoriTableViewCell.swift in Sources */,
+				FAF460971FCD6DFD00143E94 /* IsiBeritaViewController.swift in Sources */,
+				FAF460991FCD6DFD00143E94 /* KategoriTableViewCell.swift in Sources */,
+				FAF4605B1FCD681A00143E94 /* AppDelegate.swift in Sources */,
+				FAF460951FCD6DFD00143E94 /* HomeMenuTableViewCell.swift in Sources */,
+				FAF460961FCD6DFD00143E94 /* HomeMenuTableViewController.swift in Sources */,
+				FAF460921FCD6DFD00143E94 /* IsiDetailViewController.swift in Sources */,
+				FAF460981FCD6DFD00143E94 /* BeritaKategoriTableViewController.swift in Sources */,
+				FAF460931FCD6DFD00143E94 /* KategoriTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF460691FCD681B00143E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF460721FCD681B00143E94 /* FunstripJogjaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF460741FCD681B00143E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF4607D1FCD681B00143E94 /* FunstripJogjaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF4606F1FCD681B00143E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF460561FCD681A00143E94 /* FunstripJogja */;
+			targetProxy = FAF4606E1FCD681B00143E94 /* PBXContainerItemProxy */;
+		};
+		FAF4607A1FCD681B00143E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF460561FCD681A00143E94 /* FunstripJogja */;
+			targetProxy = FAF460791FCD681B00143E94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF460601FCD681B00143E94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF460611FCD681B00143E94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF460651FCD681B00143E94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF460661FCD681B00143E94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF4607F1FCD681B00143E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF460801FCD681B00143E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF460821FCD681B00143E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71816E5A931CCA9AE0FB9DA1 /* Pods-FunstripJogja.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = FunstripJogja/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FunstripJogja;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAF460831FCD681B00143E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7ACAF4722D4950FC85EEA9D /* Pods-FunstripJogja.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = FunstripJogja/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FunstripJogja;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAF460851FCD681B00143E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = FunstripJogjaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FunstripJogjaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunstripJogja.app/FunstripJogja";
+			};
+			name = Debug;
+		};
+		FAF460861FCD681B00143E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = FunstripJogjaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FunstripJogjaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunstripJogja.app/FunstripJogja";
+			};
+			name = Release;
+		};
+		FAF460881FCD681B00143E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = FunstripJogjaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FunstripJogjaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FunstripJogja;
+			};
+			name = Debug;
+		};
+		FAF460891FCD681B00143E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = FunstripJogjaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FunstripJogjaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FunstripJogja;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF460521FCD681900143E94 /* Build configuration list for PBXProject "FunstripJogja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF4607F1FCD681B00143E94 /* Debug */,
+				FAF460801FCD681B00143E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF460811FCD681B00143E94 /* Build configuration list for PBXNativeTarget "FunstripJogja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF460821FCD681B00143E94 /* Debug */,
+				FAF460831FCD681B00143E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF460841FCD681B00143E94 /* Build configuration list for PBXNativeTarget "FunstripJogjaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF460851FCD681B00143E94 /* Debug */,
+				FAF460861FCD681B00143E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF460871FCD681B00143E94 /* Build configuration list for PBXNativeTarget "FunstripJogjaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF460881FCD681B00143E94 /* Debug */,
+				FAF460891FCD681B00143E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF4604F1FCD681900143E94 /* Project object */;
+}
